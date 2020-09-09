@@ -2,8 +2,8 @@
 
 cmdname=$(basename $0)
 
-rm main.exe
+rm server.exe
 
-go build main.go
+go build server.go
 
-./main.exe
+./server.exe
